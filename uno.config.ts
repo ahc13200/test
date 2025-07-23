@@ -1,7 +1,4 @@
 import {
-  createLocalFontProcessor,
-} from '@unocss/preset-web-fonts/local'
-import {
   defineConfig,
   presetAttributify,
   presetIcons,
@@ -39,12 +36,10 @@ export default defineConfig({
     }),
     presetTypography(),
     presetWebFonts({
+      provider: 'google',
       fonts: {
-        sans: 'DM Sans',
-        serif: 'DM Serif Display',
-        mono: 'DM Mono',
+        sans: ['Quicksand', 'Quicksand:400,500,700,900'],
       },
-      processors: createLocalFontProcessor(),
     }),
   ],
   transformers: [
