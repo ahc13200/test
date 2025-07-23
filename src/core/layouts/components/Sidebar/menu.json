@@ -1,0 +1,30 @@
+[
+  {
+    "caption": "Dashboard",
+    "name": "dashboard",
+    "icon": "i-solar:home-2-outline",
+    "path": "/dashboard"
+  },
+  {
+    "caption": "Securtiy",
+    "name": "security",
+    "icon": "i-solar:folder-security-linear",
+    "children": [
+      {
+        "caption": "Roles",
+        "name": "roles",
+        "path": "security/roles"
+      },
+      {
+        "caption": "Users",
+        "name": "users",
+        "path": "security/users"
+      },
+      {
+        "caption": "Permissions",
+        "name": "permissions",
+        "path": "security/permissions"
+      }
+    ]
+  }
+]
