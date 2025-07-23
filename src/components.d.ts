@@ -9,14 +9,13 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     AConfigProvider: typeof import('ant-design-vue/es')['ConfigProvider']
-    ALayoutSider: typeof import('ant-design-vue/es')['LayoutSider']
     AMenu: typeof import('ant-design-vue/es')['Menu']
     App: typeof import('./App.vue')['default']
     Button: typeof import('./core/components/Button.vue')['default']
     ConfigPanel: typeof import('./core/layouts/components/Header/ConfigPanel.vue')['default']
     Dashboard: typeof import('./pages/Dashboard.vue')['default']
     Header: typeof import('./core/layouts/components/Header/Header.vue')['default']
-    Home: typeof import('./core/layouts/Templates/Home.vue')['default']
+    Home: typeof import('./core/layouts/templates/Home.vue')['default']
     Icon: typeof import('./core/components/Icon.vue')['default']
     PermissionList: typeof import('./modules/security/permission/views/PermissionList.vue')['default']
     RoleList: typeof import('./modules/security/role/views/RoleList.vue')['default']
