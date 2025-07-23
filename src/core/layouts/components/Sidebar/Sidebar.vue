@@ -25,9 +25,11 @@ const { state, menuItems, handleClick, onOpenChange } = useSidebarMenu()
       <!-- GitHub -->
       <div mb-10w-full mb-20 mt-auto px-2>
         <Button cls="!bg-primary-100 hover:scale-95 py-2">
-          <div text="primary-500 lg" flex items-center gap2>
-            <div i-iconoir:github />
-            <span>GitHub</span>
+          <div text="primary-500 lg">
+            <a href="https://github.com/ahc13200/test" target="_blank" flex items-center gap2>
+              <div i-iconoir:github />
+              <span>GitHub</span>
+            </a>
           </div>
         </Button>
       </div>
