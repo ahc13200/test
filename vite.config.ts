@@ -182,4 +182,13 @@ export default defineConfig({
     // TODO: workaround until they support native ESM
     noExternal: ['workbox-window', /vue-i18n/],
   },
+
+  build: {
+    outDir: import.meta.env.VITE_OUT_DIR,
+    emptyOutDir: true,
+    target: 'esnext',
+  },
+  esbuild: {
+    target: 'esnext',
+  },
 })
